@@ -1,0 +1,47 @@
+.center{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.friendList{
+margin-top: 50px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    border: 1px solid tomato;
+
+    padding: 5px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.indicator{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: gainsboro;
+
+    margin-bottom: 10px;
+    
+    
+}
+
+.online{
+    composes:indicator;
+    background-color: greenyellow;
+
+}
+
+.offline{
+    composes:indicator;
+    background-color: red;
+}
+
