@@ -24,9 +24,6 @@ FriendList.propTypes={
     friends: PropTypes.arrayOf(
     PropTypes.exact({
             id: PropTypes.number.isRequired,
-        avatar: PropTypes.string.isRequired,
-        isOnline: PropTypes.bool.isRequired, 
-        name:PropTypes.string.isRequired,
          })
 )
 }

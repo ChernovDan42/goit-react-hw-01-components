@@ -8,6 +8,9 @@ import data from 'data.json'
 import friends from 'friends.json'
 import transactions from 'transactions.json'
 
+import {Example} from './Test/Test'
+
+
 export const App = () => {
   return (
     <div>
@@ -23,6 +26,8 @@ export const App = () => {
       <FriendList friends={friends} />
 
       <TransactionHistory items={transactions} />
+
+      <Example/>
       
 
     </div>
